@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://cdn.dribbble.com/users/339336/screenshots/4644736/comp-35-dribbble.gif");
+    background-size: cover;
+    margin: -8px;
+    height: 100vh;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-self: center;
+    background-size: cover;
+    height: 450px;
+    width: 600px;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.namecontainer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+
+.name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.inputcontainer {
+    box-shadow: 2px 2px 2px 2px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 6px;
+}
+
+.input {
+    width: 15vw;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+    border-color: #4c51c6;
+    border-width: 1px;
+    color: #4c51c6;
+}
+
+.alert {
+    text-align: center;
+    color: red;
+}
+
+.success {
+    text-align: center;
+    color: green;
+}
